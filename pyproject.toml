@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "koso"
+version = "0.1.0"
+description = "An ORM (sort-of) for CozoDB"
+authors = ["Diwank Tomer <diwank@julep.ai>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pycozo = "^0.7.6"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.18.1"
+ruff = "^0.1.9"
+pyright = "^1.1.342"
+pytest = "^7.4.3"
+jupyterlab = "^4.0.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
